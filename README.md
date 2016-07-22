@@ -5,6 +5,19 @@ An NPM installer for [PhantomJS](http://phantomjs.org/), headless webkit with JS
 
 [![Build Status](https://travis-ci.org/Medium/phantomjs.svg?branch=master)](https://travis-ci.org/Medium/phantomjs)
 
+Building and Installing in Power
+--------------------------------
+
+git clone https://github.com/ibmsoe/phantomjs-1
+
+cd phantomjs-1
+
+export PHANTOMJS_CDNURL=https://github.com/ibmsoe/phantomjs/releases/download/2.1.1
+
+npm install 
+
+To install it globally, use -g option in root mode ( sudo npm install -g )
+
 Building and Installing
 -----------------------
 
