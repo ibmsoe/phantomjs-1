@@ -405,7 +405,7 @@ function getDownloadSpec() {
     checksum = '1c947d57fce2f21ce0b43fe2ed7cd361'
   } else if (platform === 'linux' && arch == 'ppc64') {
     downloadUrl += 'linux-ppc64.tar.bz2'
-    checksum = 'c7dce9adb33861b4bce868f93ba3e61f'
+    checksum = 'b1ee31ba3f4893b57378a624b4c60211'
   } else if (platform === 'linux' && arch == 'ia32') {
     downloadUrl += 'linux-i686.tar.bz2'
     checksum = '0396e8249e082f72c1e39d33fc9d8de6'
